@@ -1,0 +1,130 @@
+# project1_cafe
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+        body{
+            /* background-color: red; */
+            font-family: "Fredoka", serif;
+        }
+        .img-responsive{
+            max-width: 100% ;
+        }
+        .hero_images{
+            background-image: url("https://lafe.com/cdn/shop/files/00002354570138_F1..jpg?v=1722829996&width=1000");
+            height: 100vh;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .hero_wrapper span{
+          margin-left: 5rem;
+          display: inline-block;
+          margin-bottom: .5rem;
+        }
+        .hero_wrapper{
+            color: white;
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .hero_wrapper h1{
+            font-size: 2    .4rem;
+            text-align: center;
+        }
+        .form_code{
+            text-align: center;
+        }
+        .form_code .Post_code{
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 2rem;
+        padding: .6rem;
+        border: none;
+        outline: none;
+        }
+        .form_code button{
+            width: 40%;
+            /* display: inline-block; */
+            /* margin-left: auto; */
+            /* margin-right: auto; */
+            text-align: center;
+            background-color: #00bab1;
+            color: white;
+            padding: .6rem;    
+            /* margin-top: 1rem; */
+            margin: 1rem auto 0rem  ;
+            border: none;
+            border-radius: .3rem;
+        }
+        .product{
+            width: 90%;
+            margin-top: .3rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .product_list_item{
+            float: left;
+            width: 32%;
+            margin-left: .5rem;
+        }
+        .product_list_item:first-of-type{
+            margin-left: 0;
+        }
+        @media screen and (max-width: 700px) {
+            .product_list_ite{
+                width: 100%;
+                float: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero_images">
+    <div class="hero_wrapper">
+        <h1 style="color: #1F4529;"> THE FOOD YOU LOVE</h1>
+        <p style="color: #E7FBB4;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, consectetur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla est consectetur quibusdam eos recusandae adipisci.</p>
+        <span style="color:;">Post</span>
+        <form action="" class="form_code">
+
+        <input class="Post_code" type="text" placeholder="Enter Your Post Code">
+        <button type="submit">Find Food</button>
+        </form>
+    </div>
+</section>
+
+
+
+<footer class="product">
+    <div class="product_list_item">
+       <img class="img-responsive" src="https://www.simplyrecipes.com/thmb/NqdhfX5pjnnUrEWqBlMyjftxfMA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Simply-Recipes-Ground-Beef-Tacos-LEAD-2-bc9d0d534d0e4396a668e20f2500b9e3.jpg " alt="" >
+       <h2 class="product_heading">
+        Food 1
+       </h2>
+       <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit expedita accusantium, dolore autem ex facere ipsam quasi numquam optio laborum omnis! Doloribus placeat quaerat odit et labore aperiam accusantium cupiditate.</p>
+    </div>
+
+    <div class="product_list_item">
+        <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/9/91/Pizza-3007395.jpg" alt="" >
+        <h2 class="product_heading">
+         Food 2
+        </h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit expedita accusantium, dolore autem ex facere ipsam quasi numquam optio laborum omnis! Doloribus placeat quaerat odit et labore aperiam accusantium cupiditate.</p>
+     </div>
+
+     <div class="product_list_item">
+        <img class="img-responsive" src="https://img.freepik.com/free-photo/front-view-sugar-powdered-rolls-with-strawberries-cup-tea-white-desk_140725-59026.jpg?t=st=1737963494~exp=1737967094~hmac=4fd70fd154c23798fc2c7ff80588eb2e695c54f7afdb742cb193b4d9f05f95e9&w=740" alt="">
+        <h2 class="product_heading">
+         Food 3 
+        </h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit expedita accusantium, dolore autem ex facere ipsam quasi numquam optio laborum omnis! Doloribus placeat quaerat odit et labore aperiam accusantium cupiditate.</p>
+     </div>
+</footer>
+</body>
+</html>
